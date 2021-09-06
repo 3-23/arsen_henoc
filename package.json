@@ -1,5 +1,5 @@
 {
-  "name": "vue-js-web-41devs-template",
+  "name": "henoc-arsen",
   "version": "0.1.0",
   "private": true,
   "author": "Khaliq ALI",
@@ -10,11 +10,14 @@
     "lint": "vue-cli-service lint",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
     "icons": "vsvg -s src/assets/icons -t src/components/icons",
-    "prebuild": "npm run icons"
+    "prebuild": "npm run icons",
+    "deploy": "rm -rf dist/ && npm run build && surge dist/"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "hooper": "^0.3.4",
     "vue": "^2.6.11",
+    "vue-carousel": "^0.18.0",
     "vue-i18n": "^8.17.3",
     "vue-router": "^3.2.0",
     "vue-spinner": "^1.0.4",

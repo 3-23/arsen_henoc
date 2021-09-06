@@ -11,14 +11,49 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/About',
     name: 'About',
     component: pathResolver('about', 'index')
+  },
+  {
+    path: '/',
+    name: 'Acceuil',
+    component: pathResolver('accueil', 'index')
+  },
+  {
+    path: '/couverture',
+    name: 'couverture',
+    component: pathResolver('couverture', 'index')
+  },
+  {
+    path: '/engagement',
+    name: 'engagement',
+    component: pathResolver('engagement', 'index')
+  },
+  {
+    path: '/questions',
+    name: 'questions',
+    component: pathResolver('questions', 'index')
+  },
+  {
+    path: '/rembourse',
+    name: 'rembourse',
+    component: pathResolver('rembourse', 'index')
+  },
+  {
+    path: '/Team',
+    name: 'Team',
+    component: pathResolver('Team', 'index')
+  },
+  {
+    path: '/Text',
+    name: 'Text',
+    component: pathResolver('Text', 'index')
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes,
   scrollBehavior (to, from, savedPosition) {

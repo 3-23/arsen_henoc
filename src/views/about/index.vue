@@ -1,13 +1,13 @@
 <!--
 About Page
-Created at 09/04/2021 11:45
-Author: Khaliq ALI
+Created at 03/09/2021 20:20
+Author: Henoc ALAO
 !-->
 <template>
 <div class="about-page w-full h-screen flex justify-center items-center">
   <div class="flex flex-col justify-center">
     <img src="../../assets/images/png/img_logo.png" class="h-64">
-    <div class="text-2xl text-center mt-10"> {{ $t('title') }} </div>
+    <div class="text-2xl text-center mt-10"> {{ $t('title') }} </div>ss
   </div>
 </div>
 </template>

@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-$font-default: 'Roboto', sans-serif;
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+$font-default: 'Poppins', sans-serif;
 $main-background: #ffffff;
 $background-content: #fafafa;
 $background-gradient: linear-gradient(135deg,#7039CA 20%, #FA4A4D 150%);
@@ -23,4 +25,5 @@ $orange: #FFB300;
 $beige: #fbfbfb;
 $beige-light: #FAFAFA;
 $beige-light2: #FCFCFC;
-
+$green-arsen: #00856F;
+$gray-arsen: #606060;
